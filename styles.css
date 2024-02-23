@@ -133,3 +133,18 @@ h1 {
 .hole.pop img {
   animation: pop 0.3s ease-in-out;
 }
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    margin-top: 10px;
+    font-size: 50px;
+  }
+  .hole {
+    width: 100px;
+    height: 100px;
+  }
+  .gameBoard {
+    gap: 5px;
+    grid-template-columns: repeat(3, 115px);
+  }
+}
