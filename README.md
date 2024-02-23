@@ -1,5 +1,5 @@
 # Whack-a-Bill
-Buffalo Bills Inspired whack a mole
+Buffalo Bills Inspired whack a mole. Works on desktop and phone.
 
 # Javascript 
 DOM manipulation
