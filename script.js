@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Activate holes at random intervals
-    countdown = 3; // Set countdown timer to 30 seconds
+    countdown = 30; // Set countdown timer to 30 seconds
     timerDisplay.textContent = `Time Left: ${countdown}`; // Update timer display
     timer = setInterval(() => {
       countdown--; // Decrement countdown
