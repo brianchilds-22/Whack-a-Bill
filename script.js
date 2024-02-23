@@ -24,10 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!this.classList.contains("active")) return; // If hole is not active, do nothing
     score++; // Increment score
     scoreDisplay.textContent = `Score: ${score}`; // Update score display
-    // this.classList.remove("active"); // Deactivate hole
-    // Toggle red border class for the clicked image
-    // const image = this.querySelector("img");
-    // image.classList.toggle("clicked");
     bonkSound.currenttime = 0; // Reset bonk sound
     bonkSound.play(); // Play bonk sound
 
@@ -56,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }, 600); // 1000ms = 1 second
     }
 
-    // Activate hot6es at random intervals
+    // Activate holes at random intervals
     countdown = 30; // Set countdown timer to 30 seconds
     timerDisplay.textContent = `Time Left: ${countdown}`; // Update timer display
     timer = setInterval(() => {

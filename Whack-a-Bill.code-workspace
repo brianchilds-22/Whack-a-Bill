@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "Whack-a-Bill",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.port": 5501
+  }
+}
