@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Activate holes at random intervals
-    countdown = 30; // Set countdown timer to 30 seconds
+    countdown = 3; // Set countdown timer to 30 seconds
     timerDisplay.textContent = `Time Left: ${countdown}`; // Update timer display
     timer = setInterval(() => {
       countdown--; // Decrement countdown
@@ -61,7 +61,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (countdown <= 0) {
         clearInterval(timer); // Stop the timer
-        finalMessage.textContent = `Game Over! Your score is ${score}. ${getFinalMessage()}`; // Display final message
+        finalMessage.textContent = `Game Over!
+        \nYour score is ${score}.
+        \n${getFinalMessage()}`; // Display final message
         startButton.textContent = `Play Again?`;
         startButton.disabled = false;
         // overSound.play(); // Play over sound
