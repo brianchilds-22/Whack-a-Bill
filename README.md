@@ -1,4 +1,4 @@
-# Whack-a-Bill - Jsoh Allen Rules
+# Whack-a-Bill - Josh Allen Rules
 Buffalo Bills inspired Whack a Mole. Works on desktop and phone.
 
 # Javascript 
