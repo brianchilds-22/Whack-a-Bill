@@ -1,4 +1,4 @@
-# Whack-a-Bill
+# Whack-a-Bill - Jsoh Allen Rules
 Buffalo Bills inspired Whack a Mole. Works on desktop and phone.
 
 # Javascript 
@@ -11,4 +11,4 @@ Styling for app with animations and responsive styling.
 # HTML
 Structure of app including sounds and images.
 
-https://brianchilds-22.github.io/Whack-a-Bill/
+[Whack-A-Bill](https://brianchilds-22.github.io/Whack-a-Bill/)
